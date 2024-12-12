@@ -7,9 +7,16 @@
 
 import UIKit
 
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+    
+    override public init(){
+        
+    }
+    
     var window: UIWindow?
+    var flowController : FlowCoordinator?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
