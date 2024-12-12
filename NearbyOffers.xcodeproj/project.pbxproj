@@ -10,12 +10,11 @@
 		F2C489562D09455400C85FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C489552D09455400C85FA2 /* AppDelegate.swift */; };
 		F2C489582D09455400C85FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C489572D09455400C85FA2 /* SceneDelegate.swift */; };
 		F2C4895A2D09455400C85FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C489592D09455400C85FA2 /* ViewController.swift */; };
-		F2C4895D2D09455400C85FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C4895B2D09455400C85FA2 /* Main.storyboard */; };
 		F2C4895F2D09455500C85FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C4895E2D09455500C85FA2 /* Assets.xcassets */; };
-		F2C489622D09455500C85FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C489602D09455500C85FA2 /* LaunchScreen.storyboard */; };
 		F2C4896D2D09455500C85FA2 /* NearbyOffersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C4896C2D09455500C85FA2 /* NearbyOffersTests.swift */; };
 		F2C489772D09455500C85FA2 /* NearbyOffersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C489762D09455500C85FA2 /* NearbyOffersUITests.swift */; };
 		F2C489792D09455500C85FA2 /* NearbyOffersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C489782D09455500C85FA2 /* NearbyOffersUITestsLaunchTests.swift */; };
+		F2D40CF72D0A68620083C4D6 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D40CF62D0A68620083C4D6 /* FlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +39,14 @@
 		F2C489552D09455400C85FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C489572D09455400C85FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F2C489592D09455400C85FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2C4895C2D09455400C85FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C4895E2D09455500C85FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F2C489612D09455500C85FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C489632D09455500C85FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C489682D09455500C85FA2 /* NearbyOffersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyOffersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C4896C2D09455500C85FA2 /* NearbyOffersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyOffersTests.swift; sourceTree = "<group>"; };
 		F2C489722D09455500C85FA2 /* NearbyOffersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyOffersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C489762D09455500C85FA2 /* NearbyOffersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyOffersUITests.swift; sourceTree = "<group>"; };
 		F2C489782D09455500C85FA2 /* NearbyOffersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyOffersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2D40CF62D0A68620083C4D6 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +100,9 @@
 				F2C489552D09455400C85FA2 /* AppDelegate.swift */,
 				F2C489572D09455400C85FA2 /* SceneDelegate.swift */,
 				F2C489592D09455400C85FA2 /* ViewController.swift */,
-				F2C4895B2D09455400C85FA2 /* Main.storyboard */,
 				F2C4895E2D09455500C85FA2 /* Assets.xcassets */,
-				F2C489602D09455500C85FA2 /* LaunchScreen.storyboard */,
 				F2C489632D09455500C85FA2 /* Info.plist */,
+				F2D40CF62D0A68620083C4D6 /* FlowCoordinator.swift */,
 			);
 			path = NearbyOffers;
 			sourceTree = "<group>";
@@ -231,9 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C489622D09455500C85FA2 /* LaunchScreen.storyboard in Resources */,
 				F2C4895F2D09455500C85FA2 /* Assets.xcassets in Resources */,
-				F2C4895D2D09455400C85FA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D40CF72D0A68620083C4D6 /* FlowCoordinator.swift in Sources */,
 				F2C4895A2D09455400C85FA2 /* ViewController.swift in Sources */,
 				F2C489562D09455400C85FA2 /* AppDelegate.swift in Sources */,
 				F2C489582D09455400C85FA2 /* SceneDelegate.swift in Sources */,
@@ -295,25 +291,6 @@
 			targetProxy = F2C489732D09455500C85FA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F2C4895B2D09455400C85FA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2C4895C2D09455400C85FA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F2C489602D09455500C85FA2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2C489612D09455500C85FA2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F2C4897A2D09455500C85FA2 /* Debug */ = {
@@ -441,7 +418,6 @@
 				INFOPLIST_FILE = NearbyOffers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +444,6 @@
 				INFOPLIST_FILE = NearbyOffers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
