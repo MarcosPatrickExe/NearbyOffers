@@ -3,7 +3,7 @@
 //  NearbyOffers
 //
 //  Created by patrickson on 10/12/24.
-//
+// 
 
 import Foundation
 import UIKit // necessario para criar interface
