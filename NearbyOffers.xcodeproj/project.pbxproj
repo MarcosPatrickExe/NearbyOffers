@@ -10,11 +10,10 @@
 		532BA3722D21D4290097C4C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3712D21D4290097C4C5 /* AppDelegate.swift */; };
 		532BA3742D21D4290097C4C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3732D21D4290097C4C5 /* SceneDelegate.swift */; };
 		532BA3762D21D4290097C4C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3752D21D4290097C4C5 /* ViewController.swift */; };
-		532BA3792D21D4290097C4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BA3772D21D4290097C4C5 /* Main.storyboard */; };
 		532BA37B2D21D42A0097C4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532BA37A2D21D42A0097C4C5 /* Assets.xcassets */; };
-		532BA37E2D21D42A0097C4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532BA37C2D21D42A0097C4C5 /* LaunchScreen.storyboard */; };
 		532BA3892D21D42A0097C4C5 /* NearbyOffersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3882D21D42A0097C4C5 /* NearbyOffersTests.swift */; };
 		532BA3942D21D42A0097C4C5 /* NearbyOffersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3932D21D42A0097C4C5 /* NearbyOffersUITests.swift */; };
+		532BA3A42D21E42D0097C4C5 /* FlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BA3A32D21DF280097C4C5 /* FlowCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +38,7 @@
 		532BA3712D21D4290097C4C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		532BA3732D21D4290097C4C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		532BA3752D21D4290097C4C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		532BA3782D21D4290097C4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		532BA37A2D21D42A0097C4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		532BA37D2D21D42A0097C4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		532BA37F2D21D42A0097C4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532BA3842D21D42A0097C4C5 /* NearbyOffersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyOffersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		532BA3882D21D42A0097C4C5 /* NearbyOffersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyOffersTests.swift; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		532BA38F2D21D42A0097C4C5 /* NearbyOffersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyOffersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		532BA3932D21D42A0097C4C5 /* NearbyOffersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyOffersUITests.swift; sourceTree = "<group>"; };
 		532BA3952D21D42A0097C4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532BA3A32D21DF280097C4C5 /* FlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +97,12 @@
 		532BA3702D21D4290097C4C5 /* NearbyOffers */ = {
 			isa = PBXGroup;
 			children = (
+				532BA3A32D21DF280097C4C5 /* FlowCoordinator.swift */,
+				532BA3A22D21DEE80097C4C5 /* Sources */,
 				532BA3712D21D4290097C4C5 /* AppDelegate.swift */,
 				532BA3732D21D4290097C4C5 /* SceneDelegate.swift */,
 				532BA3752D21D4290097C4C5 /* ViewController.swift */,
-				532BA3772D21D4290097C4C5 /* Main.storyboard */,
 				532BA37A2D21D42A0097C4C5 /* Assets.xcassets */,
-				532BA37C2D21D42A0097C4C5 /* LaunchScreen.storyboard */,
 				532BA37F2D21D42A0097C4C5 /* Info.plist */,
 			);
 			path = NearbyOffers;
@@ -126,6 +124,13 @@
 				532BA3952D21D42A0097C4C5 /* Info.plist */,
 			);
 			path = NearbyOffersUITests;
+			sourceTree = "<group>";
+		};
+		532BA3A22D21DEE80097C4C5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532BA37E2D21D42A0097C4C5 /* LaunchScreen.storyboard in Resources */,
 				532BA37B2D21D42A0097C4C5 /* Assets.xcassets in Resources */,
-				532BA3792D21D4290097C4C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532BA3A42D21E42D0097C4C5 /* FlowCoordinator.swift in Sources */,
 				532BA3762D21D4290097C4C5 /* ViewController.swift in Sources */,
 				532BA3722D21D4290097C4C5 /* AppDelegate.swift in Sources */,
 				532BA3742D21D4290097C4C5 /* SceneDelegate.swift in Sources */,
@@ -294,25 +298,6 @@
 			targetProxy = 532BA3902D21D42A0097C4C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		532BA3772D21D4290097C4C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				532BA3782D21D4290097C4C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		532BA37C2D21D42A0097C4C5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				532BA37D2D21D42A0097C4C5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		532BA3962D21D42A0097C4C5 /* Debug */ = {
